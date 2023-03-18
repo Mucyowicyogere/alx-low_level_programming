@@ -2,7 +2,9 @@
 #include <stdio.h>
 #include <time.h>
 /*
- * main function as entry point
+ * main - entry point
+ *
+ * return: always 0 (success)
  */
 int main(void)
 {
