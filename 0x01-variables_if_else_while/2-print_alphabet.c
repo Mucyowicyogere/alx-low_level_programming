@@ -8,9 +8,8 @@
  */
 int main(void)
 {
-	int n, digit;
 
-	for (int i = 1; i<27; i++)
+	for(int i = 1; i<27; i++)
 		putchar(i);
 	
 	return (0);
