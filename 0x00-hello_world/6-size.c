@@ -8,12 +8,11 @@
  */
 int main(void)
 {
-	puts("Size of a char: 1 byte(s)");
-	puts("Size of an int: 4 byte(s)");
-	puts("Size of a long int: 4 byte(s)");
-	puts("Size of a long long int: 8 byte(s)");
-	puts("Size of a float: 4 byte(s)");
-	
+	printf("Size of a char: %d byte(s)", sizeof(char));
+	printf("Size of an int: %d byte(s)", sizeof(int));
+	printf("Size of a long int: %d byte(s)", sizeof(long int));
+	printf("Size of a long long int: %d byte(s)", sizeof(long long int));
+	printf("Size of a float: %d byte(s)", sizeof(float));
 	return (0);
 }
 
