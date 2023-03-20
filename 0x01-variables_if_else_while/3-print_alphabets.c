@@ -15,15 +15,13 @@ int main(void)
 		putchar(a);
 		a++;
 		i++;
-	}
-	while (i <= 25);	
+	} while (i <= 25);	
 	i = 0;
-	do
-	{
+	do {
 		putchar(A);
 		A++;
-                i++;
-        } while (i <= 25);
+		i++;
+	} while (i <= 25);
 	putchar('\n');
 	return (0);
 }
