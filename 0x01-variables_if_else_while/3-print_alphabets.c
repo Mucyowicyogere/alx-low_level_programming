@@ -15,7 +15,7 @@ int main(void)
 		putchar(a);
 		a++;
 		i++;
-	} while (i <= 25);	
+	} while (i <= 25);
 	i = 0;
 	do {
 		putchar(A);
