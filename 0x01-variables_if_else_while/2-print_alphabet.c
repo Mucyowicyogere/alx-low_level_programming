@@ -9,11 +9,13 @@
 int main(void)
 {
 	char a = 'a';
-	putchar(a);
+	int i = 0;
 	do{
-		a++;
 		putchar(a);
-	} while (a != 'z');
+		a++;
+		i++;
+	} while (i <= 25);
+	
 	return (0);
 }
 
