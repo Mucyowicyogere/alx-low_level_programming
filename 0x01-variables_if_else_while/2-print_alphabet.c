@@ -15,7 +15,7 @@ int main(void)
 		a++;
 		i++;
 	} while (i <= 25);
-	
+	putchar('\n');
 	return (0);
 }
 
