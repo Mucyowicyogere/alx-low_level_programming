@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	char a = 'a';
+	char a = 'a', A = 'A';
 	int i = 0;
 
 	do {
 		putchar(a);
-		putchar(toupper(a));
+		putchar(A);
 		a++;
 		i++;
 	} while (i <= 25);
