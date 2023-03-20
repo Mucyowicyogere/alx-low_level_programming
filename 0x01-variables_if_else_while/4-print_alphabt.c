@@ -2,25 +2,23 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - entry point
+ * main - Entry point
  *
- *Return: always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char a = 'a';
-	int i = 0;
+	int n;
 
-	do {
-		if (a == 'q' || a == 'e')
-		{
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+	for (n = 97; n < 123; n++)
+	{
+		if (n == 113 || n == 101)
 			continue;
-		}
-		putchar(a);
-		a++;
-		i++;
-	} while (i <= 25);
-	putchar('\n');
+		putchar(n);
+	}
+	putchar(10);
 	return (0);
 }
-
