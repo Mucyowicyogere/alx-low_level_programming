@@ -9,11 +9,11 @@
 int main(void)
 {
 	char a = 'a';
-	for(int i = 0; i<26; i++)
+	do
 	{
 		putchar(a);
 		a++;
-	}
+	}while(a=='z');
 	return (0);
 }
 
