@@ -13,7 +13,9 @@ int main(void)
 
 	do {
 		if (a == 'q' || a == 'e')
+		{
 			continue;
+		}
 		putchar(a);
 		a++;
 		i++;
