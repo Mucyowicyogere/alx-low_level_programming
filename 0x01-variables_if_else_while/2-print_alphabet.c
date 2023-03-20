@@ -9,9 +9,10 @@
 int main(void)
 {
 	char a = 'a';
+	putchar(a);
 	do{
-		putchar(a);
 		a++;
+		putchar(a);
 	} while (a != 'z');
 	return (0);
 }
