@@ -13,10 +13,16 @@ int main(void)
 
 	do {
 		putchar(a);
-		putchar(A);
 		a++;
 		i++;
 	} while (i <= 25);
+	
+	i = 0;
+	do {
+                putchar(A);
+               A++;
+                i++;
+        } while (i <= 25);
 	putchar('\n');
 	return (0);
 }
