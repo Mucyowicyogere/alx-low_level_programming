@@ -16,9 +16,9 @@ int _islower(int c)
 	while (j <= 25)
 	{
 		if( c == a)
-			return 1;
+			return (1);
 		a++;
 	}
-	return 0;
+	return (0);
 }
 
