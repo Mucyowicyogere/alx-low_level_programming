@@ -7,7 +7,7 @@
 *print_alphabet - to print alphabets
 *
 */
-void repeat_alphabet(char a)
+void print_alphabet_x10(char a)
 {
 	int i = 0;
 

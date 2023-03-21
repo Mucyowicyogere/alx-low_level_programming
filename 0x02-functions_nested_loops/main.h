@@ -1,2 +1,2 @@
 void print_alphabet(void);
-void repeat_alphabet(char a);
+void print_alphabet_x10(char a);
