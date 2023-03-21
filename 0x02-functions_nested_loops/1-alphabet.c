@@ -6,22 +6,22 @@
  *
  *Return: always 0 (success)
  */
-char[] printAlphabets()
+void print_alphabet(void)
 {
 	char a = 'a';
         int i = 0;
-	char [27] letters;
+
 	do {
-		letters[i] = a;
+		putchar(a);
                 a++;
                 i++;
         } while (i <= 25);
-        letters[26] = '\n';
-	return letters;
+       
+	return;
 int main(void)
 {
-	printf("&s",printAlphabets());
-	
+	print_alphabets();
+	putchar('\n');
 	return (0);
 }
 
