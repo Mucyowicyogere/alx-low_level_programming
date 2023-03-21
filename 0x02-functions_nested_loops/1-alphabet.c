@@ -10,15 +10,15 @@
 
 void print_alphabet(void)
 {
-        char a = 'a';
-        int i = 0;
+	char a = 'a';
+	int i = 0;
 
-        do {
-                putchar(a);
-                a++;
-                i++;
-        } while (i <= 25);
+	do {
+		putchar(a);
+		a++;
+		i++;
+	} while (i <= 25);
 	putchar('\n');
-        return;
+	return;
 }
 
