@@ -11,13 +11,15 @@
 */
 int _isalpha(int c)
 {
+	int i = 0;
 	char a ='A';
 	if (c > 96 && c < 123)
 		return (1);
-	while (a<=25)
+	while (i<=25)
 	{
 		if (c == a)
 			return (1);
+		i++;
 		a++;
 	}
 	return (0);
