@@ -13,15 +13,17 @@ void print_alphabet_x10()
 	char a = 'a';
 
 	do {
-		while( j<10)
+		while( j<=25)
 		{
 
 			putchar(a);
+			a++;
 			j++;
 		}
-		a++;
+		putchar('\n');
+		a = 'a';
 		i++;
-	} while (i <= 25);
-	putchar('\n');
+	} while (i < 10);
+
 }
 
