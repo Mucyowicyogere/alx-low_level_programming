@@ -7,13 +7,13 @@
 *print_alphabet - to print alphabets
 *
 */
-void print_alphabet_x10()
+void print_alphabet_x10(void)
 {
 	int i = 0, j = 0;
 	char a = 'a';
 
 	do {
-		while( j<=25)
+		while (j <= 25)
 		{
 
 			putchar(a);
