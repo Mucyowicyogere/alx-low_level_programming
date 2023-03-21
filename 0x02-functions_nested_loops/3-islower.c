@@ -5,7 +5,7 @@
 
 /**
 *_islower - to check for lowercase character
-*
+* Return: 1 for lowercase while 0 for upper
 */
 int _islower(int c)
 {
