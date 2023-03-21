@@ -18,6 +18,7 @@ void print_alphabet(void)
         } while (i <= 25);
        
 	return;
+}
 int main(void)
 {
 	print_alphabets();
