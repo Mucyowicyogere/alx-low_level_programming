@@ -7,7 +7,10 @@
  *
  *Return: always 0 (success)
  */
-
+/**
+ * for printing alphabets
+ *Return: void
+ */
 void print_alphabet(void)
 {
 	char a = 'a';
