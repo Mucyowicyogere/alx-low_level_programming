@@ -2,14 +2,9 @@
 #include <stdio.h>
 #include <time.h>
 #include "main.h"
-/**
- * main - entry point
- *
- *Return: always 0 (success)
- */
+
 /**
  * print_alphabet - to print alphabets  
- *  *Return: void
  */
 void print_alphabet(void)
 {
