@@ -22,6 +22,7 @@ void print_alphabet_x10()
 		}
 		putchar('\n');
 		a = 'a';
+		j = 0;
 		i++;
 	} while (i < 10);
 
