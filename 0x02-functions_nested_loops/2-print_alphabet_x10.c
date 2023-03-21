@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
-*print_alphabet - to print alphabets
+*print_alphabet_x10 - to print alphabets 10x
 *
 */
 void print_alphabet_x10(void)
