@@ -9,17 +9,8 @@
 */
 int _islower(int c)
 {
-	int j = 0;
-	char a = 'a';
-
-
-	while (j <= 25)
-	{
-		if( c == a)
-			return (1);
-		a++;
-		j++;
-	}
+	if (c > 96 && c < 123)
+		return (1);
 	return (0);
 }
 
