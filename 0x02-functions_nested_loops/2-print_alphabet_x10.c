@@ -7,7 +7,7 @@
 *print_alphabet - to print alphabets
 *
 */
-void print_alphabet_x10(char a)
+void print_alphabet_x10()
 {
 	int i = 0, j = 0;
 	char a = 'a';
