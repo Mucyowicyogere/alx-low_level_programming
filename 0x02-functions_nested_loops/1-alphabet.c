@@ -8,8 +8,8 @@
  *Return: always 0 (success)
  */
 /**
- * for printing alphabets
- *Return: void
+ * print_alphabet - to print alphabets  
+ *  *Return: void
  */
 void print_alphabet(void)
 {
