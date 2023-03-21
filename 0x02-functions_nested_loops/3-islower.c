@@ -18,6 +18,7 @@ int _islower(int c)
 		if( c == a)
 			return (1);
 		a++;
+		j++;
 	}
 	return (0);
 }
