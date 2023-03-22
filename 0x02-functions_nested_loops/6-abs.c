@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
-*abs - absolute value
+*_abs - absolute value
 *@n : a number to be checked
 * Return:  returns n
 *
