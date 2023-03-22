@@ -4,9 +4,9 @@
 #include "main.h"
 
 /**
-*print_sign(int n) to print signs
+*print_sign - to print signs
 *@n : a number to be checked
-* Return  while 0 for upper
+* Return:  while 0 for upper
 *
 */
 int print_sign(int n)
