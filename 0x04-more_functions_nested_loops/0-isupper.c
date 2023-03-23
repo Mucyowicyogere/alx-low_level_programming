@@ -7,7 +7,7 @@
 *_isupper - to check for upper case
 *
 */
-void _isupper(char c)
+int void _isupper(char c)
 {
 	int i = c;
 	if (i >= 65 && i < 90)
