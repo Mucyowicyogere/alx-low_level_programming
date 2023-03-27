@@ -2,7 +2,7 @@
 #include <string.h>
 /**
  * puts2 - A function to print a character and skip the next
- * @str: The string to print from
+ * @s : The string to print from
  * Return: Nothing
  */
 void puts2(char *s)
