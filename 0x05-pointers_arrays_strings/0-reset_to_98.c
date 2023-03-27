@@ -1,5 +1,5 @@
 /**
- * reset_to_98 -  sets a value a pointer 
+ * reset_to_98 -  sets a value a pointer
  * @n: The pointer
  * Return: Nothing
  */
