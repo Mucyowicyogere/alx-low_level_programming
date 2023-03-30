@@ -1,9 +1,9 @@
 #include <string.h>
 /**
- * reverse_array - A function that reverses the content of an array of intergers.
+ * reverse_array - A function that reverses the content of an array of integers.
  * @a: The array to reverse
- * @n: The 
- * Return: 0 only when strings matches, a -ve value when they do not match
+ * @n: The number of elements
+ * Return: nothing.
  */
 void reverse_array(int *a, int n)
 {
