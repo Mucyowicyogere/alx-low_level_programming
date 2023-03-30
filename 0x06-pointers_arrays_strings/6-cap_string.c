@@ -1,5 +1,5 @@
 /**
- * cap_string - capitalizes each word 
+ * cap_string - capitalizes everey word of a string
  * @s: string to modify
  *
  * Return: the resulting string
