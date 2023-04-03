@@ -1,10 +1,10 @@
-#include "string.h"
+#include <string.h>
 /**
- * _memcpy - A method to copy a memory area 
- * @dest: destination 
- * @src: source 
- * @n: bytes number
- * Return: The pointer pointing to dest
+ *_memcpy - A function to copy a memory area from one string to another
+ *@dest: The destination string
+ *@src: The source string
+ *@n: Number of bytes to copy
+ *Return: The pointer to dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
