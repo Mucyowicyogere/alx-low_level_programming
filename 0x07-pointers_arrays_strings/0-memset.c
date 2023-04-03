@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _memset - fills memory
+ *_memset - fills memory
  *@s: string to be encoded
  *@b: value
  *@n: bytes
- * Return: detination
+ *Return: detination
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -13,7 +13,8 @@ char *_memset(char *s, char b, unsigned int n)
 	/*Declaring FOR*/
 	for (i = 0; i < n; i++)
 	{
-		*(s + i) = b; /*add 1 position s*/
+		/*add 1 position s*/
+		*(s + i) = b;/
 	}
        	/*END FOR*/
 	return (s);
