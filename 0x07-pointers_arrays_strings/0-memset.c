@@ -1,14 +1,15 @@
 /**
- * leet - encodes a string in 1337
- * @s: string to be encoded
- *
- * Return: the resulting string;
+ * _memset - fills memory
+ *@s: string to be encoded
+ *@b: value
+ *@n: bytes
+ * Return: detination
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-unsigned int i;
+	unsigned int i;
 
-	/*Delacring FOR*/
+	/*Declaring FOR*/
 	for (i = 0; i < n; i++)
 	{
 		*(s + i) = b; /*add 1 position s*/
