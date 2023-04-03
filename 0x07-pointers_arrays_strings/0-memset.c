@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _memset - fills memory
  *@s: string to be encoded
