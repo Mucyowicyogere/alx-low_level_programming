@@ -1,10 +1,10 @@
-#include "main.h"
+#include <string.h>
 /**
- *_memset - fills memory
- *@s: string to be encoded
- *@b: value
- *@n: bytes
- *Return: detination
+ * _memset - A function to fill the first n bytes of a string by a constant
+ * @s: String to be filled
+ * @b: Character to use to fill
+ * @n: Number of bytes to fill
+ * Return: Pointer to the memory
  */
 char *_memset(char *s, char b, unsigned int n)
 {
