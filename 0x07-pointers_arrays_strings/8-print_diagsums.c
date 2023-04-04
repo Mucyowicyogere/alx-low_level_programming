@@ -5,7 +5,7 @@
  * print_diagsums - the two diagonals sum
  * @a: 2d char array 
  * @size: matrix nbr
-*Return: void
+* Return: void
  */
 
 void print_diagsums(int *a, int size)
