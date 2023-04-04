@@ -16,4 +16,4 @@
 		 sum2 += a[i][size - (i + 1)];
 	 }
 	 printf("%d, %d\n", sum1, sum2)
- }}
+ }
