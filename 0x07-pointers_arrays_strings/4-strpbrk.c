@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strpbrk - matches characters
- * @s: string scan.
- * @accept:char which  matches one of the characters
+ *_strpbrk - matches characters
+ *@s: string scan.
+ *@accept:char which  matches one of the characters
  *Return: string ch matches 
  **/
 
