@@ -6,7 +6,6 @@
  *@accept:char which  matches one of the characters
  *Return: string ch matches 
  **/
-
 char *_strpbrk(char *s, char *accept)
 {
 	int j;
@@ -27,5 +26,4 @@ char *_strpbrk(char *s, char *accept)
 		s++; /*add s+1*/
 	}
 	return (0);
-
 }
