@@ -1,4 +1,5 @@
 #include "string.h"
+
 /**
  *_strpbrk - A function to search for the first occurence of a string in a string
  *@s: The string in which to search
