@@ -4,7 +4,7 @@
 /**
  * print_diagsums - the two diagonals sum
  * @a: 2d char array 
- *@size: matrix nbr
+ * @size: matrix nbr
 *Return: void
  */
 
