@@ -2,7 +2,7 @@
 
 /**
  * _strpbrk -method that  matches specified char 
- * @s: string to scan
+ * @s: string to scan.
  * @accept:char in 1st string which matches char in 2nd string
  *Return: a string which matches specified char
  **/
