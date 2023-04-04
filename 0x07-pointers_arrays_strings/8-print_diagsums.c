@@ -6,7 +6,7 @@
  * @a: 2d char array 
  * @size: matrix nbr
 * Return: void
- */
+*/
 
 void print_diagsums(int *a, int size)
 {
