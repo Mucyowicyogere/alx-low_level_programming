@@ -9,9 +9,10 @@ Return: number;
 */
 int is_prime_number( int n)
 {
+	int i;
 	if (n == 0 || n == 1)
 		return (0);
-	int i;
+	
 	while (i <= (n / 2)) 
 	{
 
