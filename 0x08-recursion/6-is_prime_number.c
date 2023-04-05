@@ -2,26 +2,35 @@
 #include <stdio.h>
 #include <math.h>
 /**
- *sqrt_rec_odd - helper method for odd numbers
- *@s : odd number
+ *is_prime_number - method for prime numbers
  *@n: number
 Return: number;
 */
 int is_prime_number( int n)
 {
-	int i;
 	if (n == 0 || n == 1)
 		return (0);
-	
-	while (i <= (n / 2)) 
+	return (prime(n, n-1));
+}
+/**
+ *prime - helper method for prime numbers
+ *@x : odd number
+ *@y: number
+Return: number;
+*/
+int prime (int x, int y)
+{
+	if (y == 1)
 	{
-
-		if (n % i == 0) 
-		{
-			return 0;
-			break;
-		}
-		i++;
+		return (1);
 	}
-	return(1);
+	if (x % y != 0)
+	{
+		return (prime(x, x-1));
+	}
+	if (x % y == 0)
+	{
+		return 0;
+	}
+	return (0);
 }
