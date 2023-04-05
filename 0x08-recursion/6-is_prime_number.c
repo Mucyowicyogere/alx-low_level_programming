@@ -1,17 +1,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <math.h>
-/**
- *is_prime_number - method for prime numbers
- *@n: number
-Return: number;
-*/
-int is_prime_number( int n)
-{
-	if (n == 0 || n == 1)
-		return (0);
-	return (prime(n, n-1));
-}
+
 /**
  *prime - helper method for prime numbers
  *@x : odd number
@@ -33,4 +23,15 @@ int prime (int x, int y)
 		return 0;
 	}
 	return (0);
+}
+/**
+ *is_prime_number - method for prime numbers
+ *@n: number
+Return: number;
+*/
+int is_prime_number( int n)
+{
+        if (n == 0 || n == 1)
+                return (0);
+        return (prime(n, n - 1));
 }
