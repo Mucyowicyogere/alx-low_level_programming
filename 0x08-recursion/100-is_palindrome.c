@@ -28,7 +28,9 @@ int track_pali(char *s, int fore, int back)
 {
 	if (s[fore] != s[back])
 		return (0);
-	if ((s[fore] == s[back] && fore == back) || (s[fore] == s[back] && fore > back))
+	if ((s[fore] == s[back] && fore == back))
+	      return (1);
+	else if((s[fore] == s[back] && fore > back))
 		return (1);
 	else
 		return (track_pali(s, fore + 1, back - 1));
@@ -42,10 +44,11 @@ int track_pali(char *s, int fore, int back)
 int is_palindrome(char *s)
 {
 	int i = 0;
+
 	if (*s)
 	{
 		i = tick(s);
-        	return (track_pali(s, 0, i - 1));
+		return(track_pali(s, 0, i - 1));
 	}
 	if (!(*s))
 		return (1);
