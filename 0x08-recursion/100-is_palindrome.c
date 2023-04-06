@@ -14,6 +14,7 @@ int tick(char *s)
 		return (0);
 	else if (*s)
 		return (tick((s + 1)) + 1);
+	return (0);
 }
 /**
  * track_pali - method to assist is_palindrom
@@ -48,6 +49,6 @@ int is_palindrome(char *s)
 	}
 	if (!(*s))
 		return (1);
-
+	return (0);
 }
 
