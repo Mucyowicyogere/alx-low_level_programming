@@ -18,7 +18,7 @@ int prime(int x, int y)
 	{
 		return (prime(x, x - 1));
 	}
-	if (x % y == 0)
+	if (y > 0 && x % y == 0)
 	{
 		return (0);
 	}
@@ -33,5 +33,6 @@ int is_prime_number( int n)
 {
         if (n == 0 || n == 1 || n < 0)
                 return (0);
-        return (prime(n, n - 1));
+	else
+        	return (prime(n, n - 1));
 }
