@@ -19,7 +19,7 @@ int tick(char *s)
 /**
  * track_pali - method to assist is_palindrom
  * @s: string
- * @front: front index.
+ * @fore: front index.
  * @back: back index.
  *
  * Return: 1 or  0.
