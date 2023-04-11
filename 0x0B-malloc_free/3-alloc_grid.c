@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include "main.h"
 /**
 *alloc_grid - 2D array
 *@width: int
@@ -13,9 +12,9 @@ int **alloc_grid(int width, int height)
 	kick = 1;
 	i = 0;
 
+	ar = malloc(sizeof(int *) * height);
 	if (height <= 0 || width <= 0 || ar == NULL)
 		return (NULL);
-	ar = malloc(sizeof(int *) * height);
 	if (ar == NULL)
 		return (NULL);
 	while (i < height)
