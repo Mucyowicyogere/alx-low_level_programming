@@ -1,0 +1,39 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include "main.h"
+
+/**
+*_strdup - to concatenate 2 strings
+*@s1: string
+*@s2: string
+*Return: string
+**/
+char *_str_concat(char *s1, char *s2)
+{
+	char *ar;
+	int i, len1, len2;
+
+	if (s1 == NULL && s2 == NULL)
+		return (NULL);
+	len1 = strlen(s1) + 1;
+	len2 = strlen(s2);
+	ar = (char *)malloc((len1 + len2) * sizeof(char));
+	if (ar == NULL)
+		return (NULL);
+	i = 0;
+	while (i < (len1))
+	{
+		ar[i] = s1[i];	
+		i++;
+	}
+	while (i < (len1 + len2))
+	{
+		ar[i] = s2[i - len1];
+		i++;
+	}
+
+	ar[i] = '\0';
+
+	return (ar);
+}
