@@ -4,12 +4,12 @@
 #include "main.h"
 
 /**
-*_strdup - to concatenate 2 strings
+*str_concat - to concatenate 2 strings
 *@s1: string
 *@s2: string
 *Return: string
 **/
-char *_str_concat(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 	char *ar;
 	int i, len1, len2;
