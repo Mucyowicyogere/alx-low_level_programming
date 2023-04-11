@@ -26,15 +26,21 @@ char *str_concat(char *s1, char *s2)
 	if (ar == NULL)
 		return (NULL);
 	i = 0;
-	while (i < (len1))
+	if (s1 != NULL)
 	{
-		ar[i] = s1[i];
-		i++;
+		while (i < (len1))
+		{
+			ar[i] = s1[i];
+			i++;
+		}
 	}
-	while (i < (len1 + len2))
+	if (s2 != NULL)
 	{
-		ar[i] = s2[i - len1];
-		i++;
+		while (i < (len1 + len2))
+		{
+			ar[i] = s2[i - len1];
+			i++;
+		}
 	}
 
 	ar[i] = '\0';
