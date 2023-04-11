@@ -5,24 +5,25 @@
 
 /**
 *create_array - to create array
-*@size: array size 
+*@size: array size
 *@c: character
 **/
 char *create_array(unsigned int size, char c)
 {
 	char *ar;
 	int i;
+
 	if (size == 0)
-                return NULL;
-        ar = malloc(size * sizeof(char));
+		return(NULL);
+	ar = malloc(size * sizeof(char));
 	if (ar == NULL)
-		return NULL;	
+		return NULL;
 	i = 0;
-	while (i <(int) size)
+	while (i < (int) size)
 	{
 		ar[i] = c;
 		i++;
 	}
 	ar[i] = '\0';
-	return ar;
+	return (ar);
 }
