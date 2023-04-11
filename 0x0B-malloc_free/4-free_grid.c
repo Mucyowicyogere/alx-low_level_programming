@@ -6,13 +6,14 @@
 /**
 *free_grid - to free
 *@grid: int
+*@height: int
 *Return: int
 **/
 void free_grid(int **grid, int height)
 {
 	int x;
-	
 	x = 0;
+	
 	while (x < height)
 	{
 		if (grid[x] != NULL)
