@@ -5,9 +5,10 @@
 
 
 /**
-*_strdup - to mem allocation
-*@str: string
-*Return: string
+*alloc_grid - 2D array
+*@width: int
+@height: int
+*Return: int
 **/
 int **alloc_grid(int width, int height)
 {
@@ -27,7 +28,7 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	while (i < height)
 	{
-		ar[i] = (int *) malloc(sizeof(int) * width);
+		ar[i] = malloc(sizeof(int) * width);
 		if (!ar[i])
 		{
 			kick = 0;
