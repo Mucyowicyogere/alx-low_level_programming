@@ -7,6 +7,7 @@
 *create_array - to create array
 *@size: array size
 *@c: character
+*Return: array
 **/
 char *create_array(unsigned int size, char c)
 {
@@ -14,10 +15,10 @@ char *create_array(unsigned int size, char c)
 	int i;
 
 	if (size == 0)
-		return(NULL);
+		return (NULL);
 	ar = malloc(size * sizeof(char));
 	if (ar == NULL)
-		return NULL;
+		return (NULL);
 	i = 0;
 	while (i < (int) size)
 	{
