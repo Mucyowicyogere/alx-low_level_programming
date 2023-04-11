@@ -7,20 +7,17 @@
 /**
 *alloc_grid - 2D array
 *@width: int
-@height: int
+*@height: int
 *Return: int
 **/
 int **alloc_grid(int width, int height)
 {
-	int i;
-	int j;
+	int i, kick, j;
 	int **ar;
-	int kick;
-       
 	kick = 1;
 	i = 0;
 	if (width <= 0)
-	       return (NULL);
+		return (NULL);
 	if (height <= 0)
 		return (NULL);
 	ar = malloc(sizeof(int *) * height);
