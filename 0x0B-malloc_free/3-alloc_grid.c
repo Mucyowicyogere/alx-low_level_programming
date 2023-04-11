@@ -3,6 +3,7 @@
 #include <string.h>
 #include "main.h"
 
+
 /**
 *_strdup - to mem allocation
 *@str: string
@@ -13,7 +14,9 @@ int **alloc_grid(int width, int height)
 	int i;
 	int j;
 	int **ar;
-	bool kick = 1;
+	int kick;
+       
+	kick = 1;
 	i = 0;
 	if (width <= 0)
 	       return (NULL);
@@ -30,9 +33,9 @@ int **alloc_grid(int width, int height)
 			kick = 0;
 			break;
 		}
-		i++
+		i++;
 	}
-	if (!kick)
+	if (kick == 0)
 	{
 		for (i = 0; i < height; i++)
 		{
