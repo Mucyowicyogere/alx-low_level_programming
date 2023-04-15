@@ -8,7 +8,6 @@
 *@argv: array
 *Return: 0
 **/
-
 int main(int argc, char *argv[])
 {
 	int i, a, add;
@@ -18,11 +17,11 @@ int main(int argc, char *argv[])
 		printf("%d\n", 0);
 		return (1);
 	}
-	add = 0;	
+	add = 0;
 	for (i = 1; i < argc; i++)
 	{
 		a = atoi(argv[i]);
-		if ((a == 0 && argv[i][0] != '0'))
+		if (a == 0 && argv[i][0] != '0')
 		{
 			printf("Error\n");
 			return (1);
