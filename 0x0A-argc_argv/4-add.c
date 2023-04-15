@@ -9,25 +9,26 @@
 *Return: 0
 **/
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	int a, b;
+	int i, a, add;
 
-	if(argc < 2)
+	if (argc < 2)
 	{
 		printf("%d\n", 0);
-		return(1);
+		return (1);
 	}
-
-	a = atoi(argv[1]);
-        b = atoi(argv[2]);
-	printf("===%d", a);	
-	if((isdigit(a) == 0) || (isdigit(b) == 0))
+	add = 0;	
+	for (i = 1; i < argc; i++)
 	{
-		printf("Error\n");
-		return(1);
+		a = atoi(argv[i]);
+		if ((a == 0 && argv[i][0] != '0'))
+		{
+			printf("Error\n");
+			return (1);
+		}
+		add = add + a;
 	}
-	
-	printf("%d\n", (a+b));
-	return(0);
+	printf("%d\n", (add));
+	return (0);
 }
