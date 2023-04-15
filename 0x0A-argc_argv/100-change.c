@@ -41,25 +41,24 @@ int main(int argc, char *argv[])
 			continue;
 		}
 		if (ar >= 5)
-                {
-                        ar -= 5;
-                        coins += 1;
-                        continue;
-                }
+		{
+			ar -= 5;
+			coins += 1;
+			continue;
+		}
 		if (ar >= 2)
-                {
-                        ar -= 2;
-                        coins += 1;
-                        continue;
-                }
+		{
+			ar -= 2;
+			coins += 1;
+			continue;
+		}
 		if (ar >= 1)
-                {
-                        ar -= 1;
-                        coins += 1;
-                        continue;
-                }
+		{
+			ar -= 1;
+			coins += 1;
+			continue;
+		}
 	}
 	printf("%d\n",coins);
-
 	return (0);
 }
