@@ -7,13 +7,14 @@
 *@argv: array
 *Return: 0
 */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int coins, ar;
 
-	coins = ar =0;
+	coins = 0;
+	ar =0;
 	
-	if (argc !=2)
+	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
