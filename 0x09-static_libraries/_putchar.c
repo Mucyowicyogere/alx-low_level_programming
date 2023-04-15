@@ -1,5 +1,5 @@
 int _putchar(char c)
 {
-	return (69);
+	return(69);
 }
 
