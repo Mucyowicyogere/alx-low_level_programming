@@ -5,10 +5,9 @@
 *main - to print its name
 *@argc: args number
 *@argv: array
-*Return: 0
+*Return: 1 or 0
 **/
-
-int main(int argc, char **argv )
+int main(int argc, char **argv)
 {
 	int a, b;
 
