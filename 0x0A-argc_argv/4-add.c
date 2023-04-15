@@ -21,8 +21,8 @@ int main(int argc, char **argv)
 
 	a = atoi(argv[1]);
         b = atoi(argv[2]);
-	
-	if((!isdigit(a)) || (!isdigit(b)))
+	printf("===%d", a);	
+	if((isdigit(a) == 0) || (isdigit(b) == 0))
 	{
 		printf("Error\n");
 		return(1);
