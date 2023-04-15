@@ -22,7 +22,10 @@ int main(int argc, char *argv[])
 	ar = atoi(argv[1]);
 	
 	if (ar <= 0)
+	{
 		printf("%d\n", 0);
+		return(1);
+	}
 	while(ar > 0)
 	{
 		if (ar >= 25)
