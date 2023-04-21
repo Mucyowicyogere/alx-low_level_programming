@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
-* print_strings - print strings 
+* print_strings - print strings
 * @separator: string
 * @n: numbers of args
 * Return: void
@@ -10,26 +10,26 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list l;
-	char * word;
+	char *word;
 	unsigned int j;
 
 	va_start(l, n);
 
-	for(j = 0; j < n; j++)
+	for (j = 0; j < n; j++)
 	{
 		word = va_arg(l, char*);
 		if (separator == NULL || j == (n - 1))
 		{
-			if(word == NULL)
+			if (word == NULL)
 				printf("(nil)");
 			else
 				printf("%s", word);
 		}
 		else
 		{
-			if(word == NULL)
-                                printf("(nil)%s", separator);
-                        else
+			if (word == NULL)
+				printf("(nil)%s", separator);
+			else
 				printf("%s%s", word, separator);
 		}
 	}
