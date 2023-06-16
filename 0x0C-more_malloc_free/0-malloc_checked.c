@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -14,5 +14,5 @@ void *malloc_checked(unsigned int b)
 
 	if (p != NULL)
 		return (p);
-	exit(i);
+	exit(98);
 }
